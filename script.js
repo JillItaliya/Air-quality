@@ -11,7 +11,7 @@ async function fetchData() {
     const sensors = {
       "eCO₂ (ppm)": latest.field1,
       "TVOC (ppb)": latest.field2,
-      "PM1 (µg/m³)": latest.field3,
+      "H₂S (ppm)": latest.field3,
       "PM2.5 (µg/m³)": latest.field4,
       "PM10 (µg/m³)": latest.field5,
       "CO (ppm)": latest.field6,
