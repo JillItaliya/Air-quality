@@ -16,6 +16,7 @@ async function fetchData() {
       "PM10 (µg/m³)": latest.field5,
       "CO (ppm)": latest.field6,
       "NH3 (ppm)": latest.field7,
+      "CH4 (ppm)": latest.field8,
     };
 
     const gaugesContainer = document.getElementById("gauges");
