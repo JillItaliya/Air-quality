@@ -20,7 +20,11 @@
 
   <div class="container">
     <h1>Live Air Quality Readings</h1>
-    <div id="gauges" class="card-grid"></div>
+
+    <!-- Chart Container -->
+    <canvas id="lineChart" width="100%" height="40"></canvas>
+
+    <!-- Last Updated -->
     <p id="last-updated" class="last-update">Last Updated: Fetching...</p>
 
     <a href="download.html">
@@ -31,9 +35,13 @@
   </div>
 
   <footer>
-    &copy; 2025 IoT Poultry Farm Monitoring | Powered by ThingSpeak
+    &copy; IoT Poultry Farm Monitoring
   </footer>
 
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Your Custom Script -->
   <script src="script.js"></script>
 </body>
 </html>
